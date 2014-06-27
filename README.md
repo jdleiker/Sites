@@ -1,3 +1,3 @@
 Sites
 =====
-This repo is for web projects.
+This repo is for public web apps and website projects.
