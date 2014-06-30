@@ -4,11 +4,15 @@
 
 
 
+
 body {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
+  width: auto;
+  height: auto;
+  position: relative;
   font-weight: inherit;
   font-style: inherit;
   font-size: 100%;
@@ -17,14 +21,9 @@ body {
   background-color: #E0F2F7;
  }
 
-#wrapper {
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -4em;
-}
 
-#header {
+
+header {
   background-color: #0B0B3B;
   position: relative;
   height: 115px;
@@ -34,82 +33,41 @@ margin: 0 auto -4em;
   box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
 }
 
-#logo {
+header h1 {
+  color: white;
   float: left;
-  width: auto; 
-  height: auto;
-  margin: 0px;
   padding-left: 30px;
-  padding-top: 0px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 60px;
 }
 
-#menu2 {
-  background-color: white;
-  height: 50px;
-  width: 700px;
-  float: center;
-  margin: 40px;
-  padding: 30px;
-  position: relative;
-  display: inline-block;
-  -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
-  -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
-  box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+main {
+  height: auto;
+  width: auto;
+  margin: auto;
+  padding: 40px;
+  background-color: #E0F2F7;
 }
 
-
-#main {
+#content {
   background-color: white;
   height: 800px;
-  width: 800px;
-  float: center;
-  margin: 40px;
+  width: auto;
+  margin: auto;
   padding: 30px;
   position: relative;
-  display: inline-block;
   -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
   -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
   box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
 }
 
-#sidebar {
-  background-color: white;
-  height: auto;
-  width: 400px;
+footer {
+  background-color: #0B0B3B;
   margin: 0;
   padding: 0;
-  float: right;
   position: relative;
-  display: inline-block;
-  /*-webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
-  -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
-  box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);*/
-}
-
-#widgets {
-  position:relative;
-  background-color: white;
-  height: 300px;
-  width: auto;
-  float: center;
-  display: inline-block;
-  margin: 10px;
-  padding: 30px;
-  vertical-align: top;
-  -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
-  -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
-  box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
-}
-
-#footer {
-  background-color: #0B0B3B;
-  position: relative;
-  float: clear;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 115px;
   min-width:100%;
   -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
@@ -117,23 +75,16 @@ margin: 0 auto -4em;
   box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
 }
 
-#footer p {
-  height: auto;
-  width: auto;
+footer p {
   float: right;
-  margin-top: 15px;
-  margin-right: 15px;
-  padding: 30px;
+  padding-top: 20px;
+  padding-right: 50px;
 }
 
 h1 {
   color: #528ecc;
   font-size: 60px;
   text-shadow:1px 1px 0px #528ecc;
-}
-
-#logo h1 {
-  color: white;
 }
 
 a {

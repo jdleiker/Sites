@@ -7,32 +7,27 @@
 </head>
 
 <body>
+  
 
-  <div id="wrapper">
-    <div id="header">
-        <div id="logo">
-          <h1><strong><em>J.D. Leiker</em></strong></h1>      
-        </div>      
-   </div>
+    <header>
+          <h1>J.D. Leiker</h1>           
+    </header>
 
+    <main>
 
-   <div id="main">
+      <div id="content">
+        <h1>Hello, Rails!</h1>
+        <%= link_to 'My Blog', controller: 'articles' %>
+      </div>
 
-
-      <h1>Hello, Rails!</h1>
-      <%= link_to 'My Blog', controller: 'articles' %>
-
-
-   </div>
+    </main>
     
-    <div class="push"></div>
-    
-    <div id="footer">
+    <footer>
       <p>JDLEIKER.COM © 2014</p>
-    </div>
+    </footer>
 
-  </div>
 
 </body>
+
 </html>
 
